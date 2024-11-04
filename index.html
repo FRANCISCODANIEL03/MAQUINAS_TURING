@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Máquina de Turing</title>
+</head>
+<body>
+    <h1>Máquina de Turing</h1>
+    <h2>Copia de una cadena de unos a continuacion de la misma</h2>
+    <label for="inputString">Ingresa la cadena de unos y ceros:</label>
+    <input type="text" id="inputString" placeholder="Ejemplo: 01110000">
+    <button onclick="runTuringMachine()">Ejecutar</button>
+    
+    <h2>Pasos:</h2>
+    <div id="stepsContainer"></div>
+
+    <h2>Resultado final en la cinta:</h2>
+    <p id="finalTape"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
